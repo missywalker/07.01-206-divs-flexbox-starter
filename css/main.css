@@ -103,6 +103,29 @@ html {
   height: 100%;
 }
 
+header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    border: solid .2em gray;
+}
+
+header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
+  }
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: solid .2em gray;
+    margin: 1em 0; 
+}
+main p {
+    font-size: 1.30em;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
@@ -115,6 +138,8 @@ body {
   font-weight: 700;
   display: flex; 
   justify-content: space-between; 
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -128,16 +153,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: dotted .5em white;  
+  border: dotted 15px white;  
 }
 
 .div-3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .emphasize-text {
     font-family: 'Permanent Marker', cursive;
     color: black;
     font-weight: 700;
+    padding-left: .2em;
+    font-size: 1.6em;
 }
 
 
