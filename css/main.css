@@ -98,6 +98,8 @@ textarea {
 
 html {
   background-color: #fff;
+  background: url('../img/relaxing-sunset-background.jpg') center fixed;
+  background-size: cover;
   height: 100%;
 }
 
@@ -113,7 +115,6 @@ body {
   font-weight: 700;
   display: flex; 
   justify-content: space-between; 
-
 }
 
 .div-1, .div-2, .div-3 {
@@ -121,15 +122,23 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: violet;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+  border: dotted .5em white;  
 }
 
-
+.div-3 {
+    font-size: 1.3em;
+}
+.emphasize-text {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-weight: 700;
+}
 
 
 /* ==========================================================================
